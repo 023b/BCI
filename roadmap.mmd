@@ -1,0 +1,86 @@
+mindmap
+  root((BCI Simulation<br>Project))
+    1[Android Phone Component]
+      1.1[Hardware Requirements]
+        1.1.1(Android Phone with Camera)
+        1.1.2(Termux App Installation)
+        1.1.3(USB Cable for Development)
+        1.1.4(Wi-Fi for Data Transmission)
+      1.2[Software Setup]
+        1.2.1(Termux Installation)
+        1.2.2(Python Environment)
+        1.2.3(OpenCV for Camera Access)
+        1.2.4(NumPy for Data Processing)
+        1.2.5(Socket/WebSocket for Communication)
+      1.3[Camera Processing]
+        1.3.1(Camera Initialization)
+        1.3.2(Frame Capture: 10-15 FPS)
+        1.3.3(Face/Feature Detection)
+        1.3.4(Facial Landmark Extraction)
+        1.3.5(Eye Movement Tracking)
+        1.3.6(Expression Recognition)
+      1.4[EEG Simulation Generation]
+        1.4.1(Feature-to-Signal Mapping)
+        1.4.2(Eyebrows → Beta Waves)
+        1.4.3(Eyes → Motor Imagery)
+        1.4.4(Expressions → Emotional Patterns)
+        1.4.5(8-Channel EEG Simulation)
+      1.5[Data Transmission]
+        1.5.1(Socket Connection Setup)
+        1.5.2(Data Packaging)
+        1.5.3(TCP/IP Communication)
+        1.5.4(Error Handling & Retries)
+    2[Laptop Component]
+      2.1[Hardware Considerations]
+        2.1.1(i5 11th Gen Processor)
+        2.1.2(8GB RAM + 8GB Swap)
+        2.1.3(Integrated GPU)
+        2.1.4(Arch Linux OS)
+      2.2[Software Environment]
+        2.2.1(Python Development Setup)
+        2.2.2(NumPy/SciPy)
+        2.2.3(Pandas for Data Management)
+        2.2.4(PyTorch/TensorFlow-Lite)
+        2.2.5(MNE-Python for EEG Analysis)
+      2.3[Data Reception]
+        2.3.1(Socket Server Setup)
+        2.3.2(Data Unpacking)
+        2.3.3(Buffer Management)
+        2.3.4(Connection Recovery Logic)
+      2.4[BCI Processing Pipeline]
+        2.4.1(Signal Processing)
+        2.4.2(Feature Extraction)
+        2.4.3(Machine Learning Model)
+        2.4.4(Model Selection)
+        2.4.5(SVM or Small Neural Network)
+        2.4.6(Real-time Prediction)
+      2.5[Output Generation]
+        2.5.1(Thought Classes to Actions)
+        2.5.2(Visual Feedback)
+        2.5.3(Demo Applications)
+    3[Development Process]
+      3.1[Project Planning]
+        3.1.1(Requirements Definition)
+        3.1.2(System Architecture)
+        3.1.3(Task Breakdown)
+        3.1.4(Timeline Estimation)
+      3.2[Implementation Phases]
+        3.2.1(Phase 1: Setup & Communication)
+        3.2.2(Phase 2: Camera Processing)
+        3.2.3(Phase 3: EEG Simulation)
+        3.2.4(Phase 4: ML Model Development)
+        3.2.5(Phase 5: Integration & Testing)
+      3.3[Testing Strategy]
+        3.3.1(Component Testing)
+        3.3.2(Integration Testing)
+        3.3.3(Performance Testing)
+        3.3.4(User Testing)
+    4[External Resources]
+      4.1[EEG Datasets]
+        4.1.1(PhysioNet Datasets)
+        4.1.2(OpenNeuro Repository)
+        4.1.3(BCI Competition Data)
+      4.2[Learning Resources]
+        4.2.1(EEG/BCI Fundamentals)
+        4.2.2(Computer Vision Tutorials)
+        4.2.3(Signal Processing Guides)
